@@ -1,0 +1,16 @@
+.titlePage {
+    
+}
+
+
+.home {
+    align-items: flex-start;
+    width: 400px;
+    height: 500px;
+}
+
+.home_container{
+    background-color: #FDF7F2;
+    width: 400px;
+    height:500px;
+}
