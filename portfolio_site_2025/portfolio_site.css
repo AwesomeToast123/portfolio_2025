@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(font/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
 .contact-me-container {
     align-items: center;
     background-color: #FDF7F2;
@@ -39,7 +46,7 @@
 }
 
 .about-gap {
-    height: 15%;
+    height: 20%;
 }
 
 .tools-used-gap {
@@ -59,11 +66,18 @@
 }
 
 .img-circle-enough {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     background-color: white;
     border-radius: 50%;
     text-align: center;
+}
+
+.img-contact {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    align-items: center;
 }
 
 .github-row {
@@ -78,12 +92,7 @@
 }
 
 
-.img-contact {
-    border-radius: 50%;
-    width: 250px;
-    height: 255px;
-    align-items: center;
-}
+
 
 .git-container{
     padding: 20px;
@@ -137,7 +146,7 @@
 .cross-platform-about {
     height: 250px;
     width: 250px;
-    background-color: grey;
+    background-color: #D9D9D9;
     border-radius: 50%;
     text-align: center;
 }
@@ -145,7 +154,7 @@
 .ui-image-about {
     height: 250px;
     width: 250px;
-    background-color: grey;
+    background-color: #D9D9D9;
     border-radius: 50%;
     text-align: center;
 }
@@ -178,7 +187,7 @@
 .about-page-image{
     height: 650px;
     width: 350px;
-    background-color: grey;
+    background-color: #D9D9D9;
     text-align: center;
 }
 
@@ -193,11 +202,12 @@
 
 .about-me-description-container {
     width: 50%;
+    font-size: 20px;
 }
 
 .home {
     align-items: flex-start;
-    width: 400px;
+    width: 500px;
     height: 500px;
 }
 
@@ -210,12 +220,13 @@
     pad: 1rem;
     width: 100%;
     height: 100%;
+    padding: 40px;
 }
 
 .home-image {
     height: 450px;
     width: 450px;
-    background-color: grey;
+    background-color: #D9D9D9;
     border-radius: 50%;
     text-align: center;
 }
@@ -246,4 +257,5 @@ html, body {
   padding: 0;
   overflow-x: hidden; 
   scroll-behavior: smooth;
+  font-family: "Roboto Condensed";
 }
